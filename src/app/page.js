@@ -11,10 +11,12 @@ export default function Home() {
   return (
     <main>
       <Greeting />
-      <TaskList />
-      <ActionButton />
-      <ProfileCard name="Анна Иванова" doljnost="Веб-разработчик" />
-      <ImageGallerey />
+      <div className="content">
+        <TaskList />
+        <ActionButton />
+        <ProfileCard name="Анна Иванова" doljnost="Веб-разработчик" />
+        <ImageGallerey />
+      </div>
     </main>
   );
 }

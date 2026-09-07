@@ -1,9 +1,9 @@
-
+import "./tasklist.css"
 
 export default function TaskList() {
 
     return (
-        <div>
+        <div className="task_list">
             <ul>
                 <li>Ажумания делац</li>
                 <li>Прес качат</li>

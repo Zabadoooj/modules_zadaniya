@@ -1,0 +1,54 @@
+.profile{
+  background-color: rgb(10, 10, 14);
+
+  padding: 20px;
+  border-radius: 20px;
+  width: 230px;
+
+  font-size: 20px;
+
+  text-align: left;
+  transition: background-color 0.15s ease-out, scale 0.1s ease-out;
+  
+  user-select: none;
+}
+.profile:hover{
+  scale: 1.03;
+  background-color: rgb(18, 23, 29);
+}
+.profile:hover ul{
+    scale: 1.05;
+    background-color: #b5ecfc;
+}
+
+.profile h2, .profile h3 {
+  text-align: center;
+}
+
+.profile ul, .profile p{
+  font-size: 18px;
+}
+
+.profile p {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.profile ul {
+  margin-top: 5px;
+  padding: 2px 40px;
+
+  border-radius: 5px;
+
+  color: black;
+  font-weight: bold;
+  background-color: #61dafb;
+  transition: background-color 0.15s ease-out, scale 0.1s ease-out;
+}
+/* 
+  background-color: #008cb3;
+  scale: 0.98;
+}
+.cool_button button:active{
+  background-color: #b5ecfc; */

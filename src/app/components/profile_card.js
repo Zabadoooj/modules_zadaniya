@@ -1,7 +1,8 @@
+import "./profile_card.css"
 
 export default function ProfileCard({name, doljnost}) {
     return (
-        <div> 
+        <div className="profile"> 
             <h2>{name}</h2>
             <h3>{doljnost}</h3>
 

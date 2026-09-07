@@ -1,0 +1,34 @@
+.image_gallerey{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 20px;
+
+  width: 400px;
+  background-color: rgb(10, 10, 14);
+  transition: background-color 0.15s ease-out, scale 0.1s ease-out;
+
+  user-select: none;
+}
+.image_gallerey:hover{
+  scale: 1.03;
+  background-color: rgb(18, 23, 29);
+}
+
+.image_gallerey img{
+  width: 125px;
+  transition: scale 0.07s ease-out, filter 0.2s ease-out, opacity 0.15s ease-out;
+}
+
+.image_gallerey:has(img:hover) img{
+    opacity: 0.6;
+    scale: 0.8;
+    filter: brightness(0.6);
+}
+
+.image_gallerey:has(img:hover) img:hover{
+  scale: 1.2;
+  opacity: 1;
+  filter: brightness(1);
+}

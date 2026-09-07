@@ -1,0 +1,47 @@
+.cool_button{
+
+  height: 100px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  border-radius: 20px;
+  padding: 20px 0px;
+  background-color: rgb(10, 10, 14);
+  transition: background-color 0.15s ease-out, scale 0.1s ease-out;
+
+  font-size: 20px;
+
+  user-select: none;
+}
+.cool_button:hover{
+  scale: 1.03;
+  background-color: rgb(18, 23, 29);
+}
+
+.cool_button button{
+  cursor: pointer;
+
+  padding: 12px;
+  margin-bottom: 10px;
+
+  border: none;
+  border-radius: 8px;
+
+  font-size: 20px;
+  font-weight: 550;
+
+  background-color: #61dafb;
+  transition: background-color 0.07s ease-out, scale 0.05s ease-out;
+}
+.cool_button button:hover{
+  background-color: #008cb3;
+  scale: 0.98;
+}
+.cool_button button:active{
+  background-color: #b5ecfc;
+  scale: 1.05;
+}

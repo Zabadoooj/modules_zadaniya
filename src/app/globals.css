@@ -1,5 +1,18 @@
+*{
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
 
+body{
+  background-color: #22252a;
+  color: #fafafa;
+}
 
-img{
-  width: 150px;
+.content{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  column-gap: 100px;
+  row-gap: 20px;
+
 }
